@@ -11,7 +11,7 @@ class Environment
 
     case env_name
     when 'DEV'
-      parameters[:api_host] = "http://127.0.0.1:9000"
+      parameters[:api_host] = "http://hello-app:8080"
     when 'PRD'
       parameters[:api_host] = "http://127.0.0.1:9000"
     else

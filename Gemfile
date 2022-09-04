@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-# Martins Tararujs22
+# Kris 
 # fdsfsdfsd
 # fdssfs
 #tst comment
