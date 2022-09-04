@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: api-tests
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-tests
+  template:
+    metadata:
+      labels:
+        app: api-tests
+    spec:
+      containers:
+      - name: api-tests-pod
+        image: duejone0/ubuntu_ruby:latest
+        ports:
+        - containerPort: 8080
+ 
